@@ -271,6 +271,7 @@
 				73EEF9391AE1EB03006B1CCF /* Frameworks */,
 				73EEF93A1AE1EB03006B1CCF /* Resources */,
 				A6B7EAF4BE9BB9A79B526C4E /* Copy Pods Resources */,
+				0294E266E9B2B624572E6FCE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,6 +330,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0294E266E9B2B624572E6FCE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HRTToolkits/Pods-HRTToolkits-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2FCBF0EBEAA29AD204AE4312 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
