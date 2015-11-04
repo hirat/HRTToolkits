@@ -1,0 +1,64 @@
+PODS:
+  - HexColors (3.0.0)
+  - HRTAppModule (0.0.1)
+  - HRTCategorys (0.0.1)
+  - HRTFontToolkit (0.0.2):
+    - HRTFontToolkit/UIKit (= 0.0.2)
+    - JLRoutes (~> 1.5.3)
+  - HRTFontToolkit/UIKit (0.0.2):
+    - JLRoutes (~> 1.5.3)
+  - JLRoutes (1.5.3)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - ViewUtils (1.1.2)
+  - VTAcknowledgementsViewController (0.15)
+
+DEPENDENCIES:
+  - HexColors (~> 3.0.0)
+  - HRTAppModule (from `git@github.com:hirat/HRTAppModule.git`)
+  - HRTCategorys (from `git@github.com:hirat/HRTCategorys.git`)
+  - HRTFontToolkit (from `git@github.com:hirat/HRTFontToolkit.git`)
+  - MMDrawerController (~> 0.6.0)
+  - ViewUtils (~> 1.1.2)
+  - VTAcknowledgementsViewController (~> 0.15)
+
+EXTERNAL SOURCES:
+  HRTAppModule:
+    :git: git@github.com:hirat/HRTAppModule.git
+  HRTCategorys:
+    :git: git@github.com:hirat/HRTCategorys.git
+  HRTFontToolkit:
+    :git: git@github.com:hirat/HRTFontToolkit.git
+
+CHECKOUT OPTIONS:
+  HRTAppModule:
+    :commit: f446a00cced7f4f43d93ec61f0325f6eb1153dde
+    :git: git@github.com:hirat/HRTAppModule.git
+  HRTCategorys:
+    :commit: a6a16f33069d749a044850c10c1e80a3d657e1a6
+    :git: git@github.com:hirat/HRTCategorys.git
+  HRTFontToolkit:
+    :commit: 7a4af6a4cdfcf797274b5936ee641131ee413c22
+    :git: git@github.com:hirat/HRTFontToolkit.git
+
+SPEC CHECKSUMS:
+  HexColors: 8b83e3fe90c0d466dae7b98c9d22da95799f99cb
+  HRTAppModule: 9e5afe33c1aa04a8a449ea7593a9c52e30e31b7a
+  HRTCategorys: 823895b5c198c191e4b023481d7c6391486fabf4
+  HRTFontToolkit: 0d839c2d66904212fa963eb235f866ceee86af79
+  JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  ViewUtils: 68e42c708a4b3912e39691cef5080282dc5013fb
+  VTAcknowledgementsViewController: 575f5841fb47b7d9c852ccb406104ea68de07b21
+
+COCOAPODS: 0.38.2
