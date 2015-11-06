@@ -48,7 +48,7 @@ CHECKOUT OPTIONS:
     :commit: a6a16f33069d749a044850c10c1e80a3d657e1a6
     :git: git@github.com:hirat/HRTCategorys.git
   HRTFontToolkit:
-    :commit: 7a4af6a4cdfcf797274b5936ee641131ee413c22
+    :commit: 4681ce3d34f4e2789049b1dec5bbbf6764eac846
     :git: git@github.com:hirat/HRTFontToolkit.git
 
 SPEC CHECKSUMS:
