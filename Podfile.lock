@@ -1,4 +1,5 @@
 PODS:
+  - FDFullscreenPopGesture (1.1)
   - HexColors (3.0.0)
   - HRTAppModule (0.0.1)
   - HRTCategorys (0.0.1)
@@ -24,6 +25,7 @@ PODS:
   - VTAcknowledgementsViewController (0.15)
 
 DEPENDENCIES:
+  - FDFullscreenPopGesture (= 1.1)
   - HexColors (~> 3.0.0)
   - HRTAppModule (from `git@github.com:hirat/HRTAppModule.git`)
   - HRTCategorys (from `git@github.com:hirat/HRTCategorys.git`)
@@ -52,6 +54,7 @@ CHECKOUT OPTIONS:
     :git: git@github.com:hirat/HRTFontToolkit.git
 
 SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   HexColors: 8b83e3fe90c0d466dae7b98c9d22da95799f99cb
   HRTAppModule: 9e5afe33c1aa04a8a449ea7593a9c52e30e31b7a
   HRTCategorys: 823895b5c198c191e4b023481d7c6391486fabf4

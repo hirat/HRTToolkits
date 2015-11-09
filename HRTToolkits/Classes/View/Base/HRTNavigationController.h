@@ -11,12 +11,3 @@
 @interface HRTNavigationController : UINavigationController
 
 @end
-
-@protocol HRTNavigationDelegate <NSObject>
-@optional
-- (BOOL)disablePanPopAtPoint:(CGPoint)point;
-- (void)navigationControllerTriggeredPop:(HRTNavigationController*)nc;
-- (void)navigationControllerWillPop:(HRTNavigationController *)nc;
-- (void)navigationControllerDidPop:(HRTNavigationController *)nc;
-@required
-@end

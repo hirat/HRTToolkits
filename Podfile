@@ -6,6 +6,7 @@ target 'HRTToolkits' do
     pod 'ViewUtils', '~> 1.1.2'
     pod 'HexColors', '~> 3.0.0'
     pod 'VTAcknowledgementsViewController', '~> 0.15'
+    pod 'FDFullscreenPopGesture', '1.1'    
 
     pod 'HRTCategorys', :git => 'git@github.com:hirat/HRTCategorys.git'
     
