@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  左侧菜单
+ */
 @interface MenuTableViewController : UITableViewController
 
 @end

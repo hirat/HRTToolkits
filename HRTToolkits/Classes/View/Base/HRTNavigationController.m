@@ -33,11 +33,11 @@
 {
     if ([self.viewControllers count] == 1)
     {
-        [self.mm_drawerController setOpenDrawerGestureModeMask: MMOpenDrawerGestureModeAll];
+        self.mm_drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
     }
     else
     {
-        [self.mm_drawerController setOpenDrawerGestureModeMask: MMOpenDrawerGestureModeNone];
+        self.mm_drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeNone;
     }
 }
 
